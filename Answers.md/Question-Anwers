@@ -1,0 +1,46 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML === Meaningful code. The two main reasons you would want to implement Semantic HTML is for SEO and Accesibility for disabled people. 
+A common method of creating html code in the old days were to basically wrap everything in a `div` tag. Now we have standards written by the W3 which can be referenced as a guideline for implementing meaningful code. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+`display: block;`
+* The selected element will take up the entire width of it's container. Any content after the selected element will appear on the next line.
+
+`display: inline;`
+* The selected element will allow other elements to appear on the same line. An example of this could be a navbar. Typically a navbar contains many anchor tags which reference other pages for the website and all of those anchor tags will be displayed as an inline element(Unless using a different css model such as flexbox).
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+3. What are the 4 areas of the box model?
+    
+    1. Margin: The space around the selected element.(This will push the selected element further away from outside elements).
+    2. Padding: The space inside the selected element.(This will push the content further inward).
+    3. Border: The border is what is between padding and margin. If you use `border: 1px solid black` on an element, this will display directly outsie the padding and inside the margin.
+    4. Content: This is what is displayed inside the element such as text or an image.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+ 
+*   `align-items: center` will always deal with the cross axis. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+5. Explain why git is valuable to a team of developers.
+
+* its easier for the user and the team to use git for version control and helps with collaboration with other developers.
